@@ -16,6 +16,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="HomeSplash" component={HomeSplash} />
         <Stack.Screen name="TabScreen" component={TabScreen} />
+        <Stack.Screen name="Maps" component={Maps} />
       </Stack.Navigator>
     </NavigationContainer>
   );
